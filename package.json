@@ -1,0 +1,32 @@
+{
+  "name": "working-with-http",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashutoshbhadoria/node-working-with-http.git"
+  },
+  "keywords": [
+    "node",
+    "http"
+  ],
+  "author": "Ashutosh Bhadoria",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashutoshbhadoria/node-working-with-http/issues"
+  },
+  "homepage": "https://github.com/ashutoshbhadoria/node-working-with-http#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "body": "^5.1.0",
+    "formidable": "^2.0.1"
+  }
+}
